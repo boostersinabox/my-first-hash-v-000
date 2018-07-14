@@ -2,9 +2,6 @@ def my_hash
   kids = {"oldst" => "Austin", "middle" => "Max", "youngest" => "Peter"}
 end
 
-  
-end
-
 
 def shipping_manifest
   # set a variable called `the_manifest`, equal to a hash
