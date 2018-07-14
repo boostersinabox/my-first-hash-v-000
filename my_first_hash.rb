@@ -9,7 +9,14 @@ def shipping_manifest
 end
 
 def retrieval
-  
+  s = "abcdefghijklmnopqrstuvwxyz"
+n = s.length
+i = 0
+while i < n
+  s[i] = s[i].upcase
+  i += 5
+end
+
 
 
   # Look up the value of the "oil paintings" key in the shipping_manifest hash below
